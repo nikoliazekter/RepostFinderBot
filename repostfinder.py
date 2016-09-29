@@ -72,7 +72,7 @@ def check_repost(possible_repost):
             comment = 'This is a repost of\n\n' + original_post.url + "\n\nwhich was posted on " + \
                       parsed_date.date().isoformat() + ' at ' + parsed_date.time().isoformat() + ' UTC.'
             comment += '\n\n*****\n\n'
-            comment += 'Contact u/nikolizekter if you have any questions or suggestions regarding the bot.'
+            comment += 'Contact u/nikoliazekter if you have any questions or suggestions regarding the bot.'
             comment += '\n\n*****\n\n'
             comment += 'GitHub code: https://github.com/nikoliazekter/RepostFinderBot'
             return comment
